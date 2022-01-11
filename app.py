@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 def checklabel(label):
     mapping = {
-        0: "Slecht",
-        1: "Gemiddeld",
-        2: "Goed"
+        0: "Bad",
+        1: "Mediocre",
+        2: "Good"
     }
     return mapping[label]
 
