@@ -29,7 +29,7 @@ This section gives more information about the format of the data that you need t
 The response is an array with the labels that correspond to the quality score of the wine.
 - Bad => quality score <= 5
 - Mediocre => quality score of 6 or 7
-- Good => quality score > 8
+- Good => quality score >= 8
 
 ### Example request
 ``` 
@@ -42,3 +42,5 @@ The response is an array with the labels that correspond to the quality score of
 ``` 
 ["Mediocre", "Mediocre"]
 ```
+
+#### Note: This API is also deployed on heroku (https://nhnklm.herokuapp.com/)
