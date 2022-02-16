@@ -44,3 +44,6 @@ The response is an array with the labels that correspond to the quality score of
 ```
 
 #### Note: This API is also deployed on heroku (https://nhnklm.herokuapp.com/)
+
+
+#### Improvements that could be made to the models: Use oversampling to make the classification a bit better
